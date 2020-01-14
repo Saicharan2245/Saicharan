@@ -1,0 +1,5 @@
+node{
+    stage('code_pull'){
+        git branch: 'Test', url: 'https://github.com/Saicharan2245/Saicharan.git'
+    }
+}
